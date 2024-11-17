@@ -34,7 +34,7 @@ Cardio EPA Bienestar IA is designed to be forked and customized for your busines
 
 ### Getting Started
 
-First, [fork](https://github.com/medplum/drdalessandro/cardio/fork) and clone the repo.
+First, [fork](https://github.com/drdalessandro/cardio/fork) and clone the repo.
 
 Next, install the app from your terminal
 
