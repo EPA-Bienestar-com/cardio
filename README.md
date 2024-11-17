@@ -1,4 +1,4 @@
-<h1 align="center">Foo Medical</h1>
+<h1 align="center">Cardio EPA Bienestar IA</h1>
 <p align="center">A free and open-source healthcare webapp from the Medplum team.</p>
 <p align="center">
   <a href="https://github.com/medplum/foomedical/actions">
@@ -12,16 +12,16 @@
   </a>
 </p>
 
-![Foo Medical Screenshot](screenshot.png)
+![Cardio EPA Bienestar IA Screenshot](screenshot.png)
 
 ### What is Foo Medical?
 
-[Foo Medical](https://foomedical.com/) is a **ready to use medical practice sample app** that's open source. It's meant for developers to clone, customize and run.
+[Cardio EPA Bienestar IA](https://cardio.epa-bienestar.coma.ar/) is a **ready to use medical practice sample app** that's open source. It's meant for developers to clone, customize and run.
 
 ### Features
 
 - Completely free and open-source
-- Secure and compliant [Medplum](https://www.medplum.com) backend, which is also open source
+- Secure and compliant [EPA Bienestar IA](https://app.epa-bienestar.com.ar) backend, which is also open source
 - Patient registration and authentication
 - Health records
   - Lab results
@@ -33,11 +33,11 @@
 - Patient scheduling
 - All data represented in [FHIR](https://hl7.org/FHIR/)
 
-Foo Medical is designed to be forked and customized for your business' needs. Register on [foomedical.com](https://foomedical.com/) to see it in action.
+Cardio EPA Bienestar IA is designed to be forked and customized for your business' needs. Register on [cardio.epa-bienestar.com.ar](https://cardio.epa-bienestar.com.ar/) to see it in action.
 
 ### Getting Started
 
-First, [fork](https://github.com/medplum/foomedical/fork) and clone the repo.
+First, [fork](https://github.com/medplum/drdalessandro/cardio/fork) and clone the repo.
 
 Next, install the app from your terminal
 
@@ -53,23 +53,13 @@ npm run dev
 
 This app should run on `http://localhost:3000/`
 
-Log into the app on localhost using the same credentials you created on [foomedical.com](https://foomedical.com/) and you are ready to start customizing.
-
-### Deploying your app
-
-To get started deploying your app we recommend making an account on [Vercel](https://vercel.com/), free accounts are available.
-
-- Create a [New Project](https://vercel.com/new) on Vercel
-- Link your Github account and load in your forked Foo Medical repository
-- All your settings should be preset, just click Deploy
-
 ### Account Setup
 
-By default, your locally running Foo Medical app is pointing to the hosted Medplum service. Foo Medical registers signups to a test project.
+By default, your locally running Cardio EPA Bienestar IA app is pointing to the hosted EPA Bienestar IA service. Cardio registers signups to a test project.
 
-To send patients to your own organization you will need to [register a new Project on Medplum](https://docs.medplum.com/tutorials/app/register) and configure your app [register form component](https://docs.medplum.com/storybook/index.html?path=/docs/medplum-registerform--basic) in [src/pages/RegisterPage.tsx](https://github.com/medplum/foomedical/blob/main/src/pages/RegisterPage.tsx#L23-L29) and [src/pages/SignInPage.tsx](https://github.com/medplum/foomedical/blob/221dda547b977205cf185131f592fb937535148a/src/pages/SignInPage.tsx#L22-L26) to point to your own project.
+To send patients to your own organization you will need to [register a new Project on EPA Bienestar IA](https://docs.medplum.com/tutorials/app/register) and configure your app [register form component](https://docs.medplum.com/storybook/index.html?path=/docs/medplum-registerform--basic) in [src/pages/RegisterPage.tsx](https://github.com/medplum/foomedical/blob/main/src/pages/RegisterPage.tsx#L23-L29) and [src/pages/SignInPage.tsx](https://github.com/medplum/foomedical/blob/221dda547b977205cf185131f592fb937535148a/src/pages/SignInPage.tsx#L22-L26) to point to your own project.
 
-If you are using the Medplum Hosted service, you will also have to contact the medplum team ([support@medplum.com](mailto:support@medplum.com) or [Discord](https://discord.gg/UBAWwvrVeN])) to with the following information to set up your Project for Open Patient Registration:
+If you are using the Medplum Hosted service, you will also have to contact the medplum team ([admin@epa-bienestar.com](mailto:admin@epa-bienestar.com) or [Discord](https://discord.gg/UBAWwvrVeN])) to with the following information to set up your Project for Open Patient Registration:
 
 - Medplum Project Id
 - Google Client Id
