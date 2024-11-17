@@ -13,7 +13,7 @@
 
 ### What is Cardio EPA Bienesar IA a fork Foo Medical?
 
-[Cardio EPA Bienestar IA](https://cardio.epa-bienestar.coma.ar/) is a **ready to use medical practice sample app** that's open source. It's meant for developers to clone, customize and run.
+[Cardio EPA Bienestar IA](https://cardio.epa-bienestar.com.ar/) is a **ready to use medical practice sample app** that's open source. It's meant for developers to clone, customize and run.
 
 ### Features
 
